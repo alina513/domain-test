@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contacteer DOMAIN voor meer informatie."
+    />
+    <title>Contact - DOMAIN</title>
+    <link rel="icon" type="image/png" href="../img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
+      integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/contact/contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="nav__logo">
+          <svg width="20" height="20" class="logo__svg">
+            <use href="../img/sprite.svg#icon-home"></use>
+          </svg>
+          Domain
+        </a>
+        <ul class="nav__list">
+          <li><a href="/">Home</a></li>
+          <li><a href="../about/about.html">Over ons</a></li>
+          <li><a href="../catalog/catalog.html">Galerij</a></li>
+          <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact__info">
+        <div class="container">
+          <h1>Contacteer ons</h1>
+          <p>Neem contact met ons op via een van de onderstaande methoden:</p>
+          <ul>
+            <li>
+              <strong>Adres:</strong>
+              <a
+                href="https://maps.app.goo.gl/19YABrJzPN4AbQpA7"
+                target="_blank"
+                >Voorbeeldstraat 123, 1000 AB Amsterdam, Nederland</a
+              >
+            </li>
+            <li><strong>Telefoon:</strong> +31 20 123 4567</li>
+            <li>
+              <strong>E-mail:</strong>
+              <a href="mailto:domain@domain.com">domain@domain.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact__form">
+        <div class="container">
+          <h2>Stuur ons een bericht</h2>
+          <form>
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="button">Verzenden</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 DOMAIN. Alle rechten voorbehouden.</p>
+      <address>
+        <a>
+          Adres: Voorbeeldstraat 123,<br />
+          1000 AB Amsterdam,<br />
+          Nederland</a
+        >
+        <p>Telefoon: +31 20 123 4567</p>
+        <p></p>
+        <p>E-mail: DOMAIN@domain.com</p>
+      </address>
+    </footer>
+  </body>
+</html>
